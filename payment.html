@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="wrapper">   
+        <div class="payment">
+        <h2>PAYMENT GATEWAY</h2>
+            <div class="form">
+                <div class="card">
+                    
+                    <label class="card-label">Card Holder:  <i class="fas fa-user" id="iconh"></i></label>
+                    <input type="text" class="input" placeholder="Your Name">
+                    
+                </div>
+                <div class="card">
+                    <label class="card-label">Card Number: <i class="fas fa-credit-card" id="iconc"></i></label>
+                    <input type="text" class="input" inputmode="numeric" placeholder="Card Number">
+                    
+                </div>
+                <div class="card-group">
+                    <div class="card-item">
+                        <label class="label">Expiry Date:  <i class="fa fa-calendar" id="icone"></i></label>
+                        <input type="text" name="expiry-date" class="input" inputmode="numeric" placeholder="DD/MM">
+                        
+                    </div>
+                    <div class="card-item">
+                        <label class="label">CVV: <i class="fa fa-lock" id="iconv"></i></label>
+                        <input type="text" name="cvv" class="input" inputmode="numeric" placeholder="***" data-mask="111">
+                        
+                    </div>
+                </div>
+                <div class="btn">Pay</div>
+            
+            <h3>&copy Created By Vishwaa N </h3>;
+            </div>
+        </div>
+    </div>
+</body>
+<script></script>
+</html>
